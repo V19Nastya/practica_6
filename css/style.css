@@ -1,0 +1,222 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter';
+}
+@font-face {
+	font-family: 'Inter';
+	src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/static/PlayfairDisplay-Black.ttf');
+}
+@font-face {
+	font-family: 'CrimsonText';
+	src: url('fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+header,
+main,
+footer {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+nav {
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ava {
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	font-size: 24px;
+}
+nav ul a:hover {
+	text-decoration-line: underline;
+}
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+main {
+	width: 100%;
+	margin: 0 auto;
+}
+h2 {
+	font-family: 'CrimsonText';
+	font-size: 75px;
+	margin: 50px 0;
+}
+.plan-none {
+	display: block;
+}
+.desk-none {
+	display: none;
+}
+.afisha article:hover {
+	text-decoration-line: underline;
+}
+.afisha {
+	width: 86%;
+	margin: 0 auto;
+}
+.afisha .afisha-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	column-gap: 70px;
+	row-gap: 50px;
+}
+.afisha .afisha-grid article {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	text-align: center;
+}
+.afisha-grid p {
+	font-family: 'CrimsonText';
+	font-size: 48px;
+}
+span {
+	font-size: 32px;
+}
+li {
+	list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #564b4b;
+	font-weight: bold;
+}
+.logo {
+	font-size: 100px;
+}
+.black {
+	color: black;
+}
+nav ul img {
+	width: 35px;
+}
+.skoro article p:hover {
+	text-decoration-line: underline;
+}
+.skoro {
+	width: 86%;
+	margin: 0 auto;
+}
+span {
+	color: rgba(0, 0, 0, 0.5);
+}
+.skoro-cont span {
+	width: 90%;
+	margin: 0 auto;
+	display: none;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+}
+.skoro .skoro-grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+	text-align: center;
+}
+.skoro-grid p {
+	font-size: 48px;
+	margin-top: 20px;
+}
+.akcii-grid article img {
+	max-width: 100%;
+	width: auto;
+}
+.akcii {
+	width: 86%;
+	margin: 0 auto;
+}
+.akcii .akcii-grid {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+.line {
+	width: 90%;
+	border-top: 3px solid black;
+	margin: 60px auto;
+}
+footer {
+	width: 86%;
+	margin: 0 auto 60px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	gap: 100px;
+}
+.wanna h1 {
+	font-size: 48px;
+}
+.seti {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-top: 50px;
+}
+.seti img {
+	width: 50px;
+}
+.column-text {
+	display: grid;
+	gap: 10px;
+}
+.column-text a {
+	text-decoration: none;
+	font-size: 24px;
+	color: black;
+}
+.column1-text {
+	display: grid;
+	gap: 10px;
+}
+.column2,
+.column3 {
+	width: 45%;
+}
+.column1-text a {
+	text-decoration: none;
+	font-size: 24px;
+	color: black;
+}
+.column-text a:hover {
+	text-decoration-line: underline;
+}
+footer h1 {
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+footer p {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.qr {
+	display: flex;
+	gap: 10px;
+}
+.qr-qr {
+	width: 35%;
+}
+.dropdown {
+	display: none;
+}

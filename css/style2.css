@@ -1,0 +1,119 @@
+@media screen and (max-width: 720px) {
+	body {
+		width: 720px;
+		margin: 0 auto;
+	}
+	.plan-none {
+		display: none;
+	}
+	.logo {
+		font-size: 64px;
+		margin-right: 50px;
+	}
+	nav ul li a {
+		font-size: 24px;
+	}
+	.desk-none {
+		display: block;
+	}
+	.afisha-grid {
+		width: 75%;
+		margin: 0 auto;
+	}
+	.afisha .afisha-grid {
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 60px;
+	}
+	.afisha-grid article img {
+		width: 100%;
+	}
+
+	.skoro-grid article {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+	}
+
+	.skoro-cont p {
+		font-size: 36px;
+	}
+
+	.skoro-cont span {
+		font-size: 16px;
+	}
+
+	.akcii-none {
+		display: none;
+	}
+	footer {
+		width: 90%;
+		flex-wrap: wrap;
+	}
+	.column1 {
+		width: 100%;
+		text-align: center;
+	}
+	.column1-text {
+		display: flex;
+		gap: 40px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.column2 {
+		width: 100%;
+		text-align: center;
+	}
+	.column-text {
+		display: flex;
+		gap: 40px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.seti {
+		gap: 20px;
+		justify-content: space-around;
+	}
+	.column3 {
+		width: 100%;
+		text-align: center;
+	}
+	.qr {
+		display: flex;
+		gap: 40px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	/*--------------------------------------*/
+
+	.dropdown {
+		display: inline-block;
+		position: relative;
+	}
+	.dropdown_content img {
+		width: 19px;
+		height: 18px;
+	}
+	.text_dropdown {
+		display: grid;
+		gap: 14px;
+		margin-top: 5px;
+	}
+	.text_dropdown_content a {
+		font-size: 18px;
+		font-weight: 400;
+		color: black;
+		margin-left: 10px;
+		text-decoration: none;
+	}
+	.dropdown_content {
+		width: 300px;
+		background-color: #f1f1f1;
+		padding: 10px;
+
+		display: none;
+		position: absolute;
+		right: 0px;
+		z-index: 1;
+	}
+}

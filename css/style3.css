@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Inter';
+	src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/static/PlayfairDisplay-Black.ttf');
+}
+@font-face {
+	font-family: 'CrimsonText';
+	src: url('fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+body {
+	font-family: 'CrimsonText';
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 24px;
+}
+header h1 {
+	font-size: 'Playfair Display';
+}
+/*-------------------main----------------------*/
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+nav {
+	display: flex;
+	justify-content: center;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+}
+.current {
+	font-weight: bold;
+}
+.news {
+	margin: 20px;
+}
+article {
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	padding: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 24px;
+}
+article h2 a {
+	color: #333;
+}
+.news1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+
+	width: 70%;
+	margin: 0 auto;
+}
+.news1 img {
+	width: 250px;
+}
+.news1 p {
+	font-size: 36px;
+	width: 50%;
+}
+article p {
+	color: #564b4b;
+}
+/*-------------------footer---------------------*/
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1px 0;
+	bottom: 0;
+	width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+	main {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.news1 {
+		display: grid;
+		gap: 0;
+	}
+	.news1 img {
+		width: auto;
+	}
+	.news1 p {
+		width: auto;
+	}
+}
